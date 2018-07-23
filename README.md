@@ -5,4 +5,6 @@ The first file, webScraper.py, reads in fantasy football projections from ESPN d
 
 The second file, projectionAnalysis.py, should be run after the webScraper.py so that it has up to date information and files to read from.  It does some analysis on the projections and then writes all of its findings to a report called "Fantasy Report.txt".
 
+I am also including a sample picture of the main table I use from ESPN for convenience and in case the website ever goes down.
+I take my data from http://games.espn.com/ffl/tools/projections? and http://games.espn.com/ffl/livedraftresults.
 ![Fantasy Projection Table](/Pictures/Fantasy_Projection_Table.png)
