@@ -6,6 +6,7 @@ NUMBER_OF_ROUNDS = 16
 # NUMBER_BIGGEST_GAPS is used for findBiggestPositionalGaps(), tells function to find the n largest gaps between
 # consecutively projected players of same position
 NUMBER_BIGGEST_GAPS = 5
+N_PLAYERS_MOST_STATS = 5 # display top n players for stats
 
 # other ideas for functions are top n touchdowns for QB, RB, WR, TE
 # top receptions for RB, TE, WR
@@ -85,7 +86,7 @@ def findBiggestPostionalGaps(positionalDF, NumberOfGaps):
             # check if the difference is greater than the smallest difference stored
             minDifference = min(biggestPointDifferencesList)
             minDifferenceIndex = biggestPointDifferencesList.index(minDifference)
-            # replace if the minimum difference from the list if this difference is greater than it
+            # replace the minimum difference from the list if this difference is greater than it
             if (pointDiff > minDifference):
                 biggestPointDifferencesList[minDifferenceIndex] = pointDiff
                 biggestPointDifferencesPlayersList[minDifferenceIndex] = (firstPlayerName + " and " + secondPlayerName)
@@ -107,10 +108,54 @@ def findBiggestPostionalGaps(positionalDF, NumberOfGaps):
         combinedPointsPlayersList.append(str(sortedDifferences[k]) + " points between " + orderedPointDifferencesPlayers[k])
     return combinedPointsPlayersList
 
-def writeGaps(reportFile,gapList):
-    for i in range(0,len(gapList)):
-        reportFile.write("\t" + gapList[i] + "\n")
+def writeStats(reportFile,statList):
+    for i in range(0,len(statList)):
+        reportFile.write("\t" + statList[i] + "\n")
 
+# input a dataframe, stat (touchdowns, yards, receptions), and number of players to return
+def findHighestForStat(positionalDF, stat, numPlayers):
+    positionalDF = positionalDF.reset_index(drop=True)
+    highestNums = []
+    highestPlayers = []
+    statColNames = []
+    if (stat == 'touchdowns'):
+        statColNames = ['PASS TD', 'RUSH TD', 'REC TD']
+    elif (stat == 'yards'):
+        statColNames = ['PASS YDS', 'RUSH YDS', 'REC YDS']
+    elif (stat == 'receptions'):
+        statColNames = ['REC']
+
+    for i in range(0,len(positionalDF)):
+        calculatedStat = 0
+        for colName in statColNames:
+            calculatedStat += positionalDF.loc[i,colName]
+        calculatedStat = round(calculatedStat,1)
+        if (len(highestNums) < numPlayers):
+            highestNums.append(calculatedStat)
+            highestPlayers.append(positionalDF.loc[i,'PLAYER'])
+        else:
+            minimumStat = min(highestNums)
+            minimumStatIndex = highestNums.index(minimumStat)
+            # replace the minimum stat from the list if this calculated stat is greater than it
+            if (calculatedStat > minimumStat):
+                highestNums[minimumStatIndex] = calculatedStat
+                highestPlayers[minimumStatIndex] = positionalDF.loc[i,'PLAYER']
+    sortedStats = highestNums.copy()
+    sortedStats.sort(reverse=True)
+    orderedStatsPlayers = [""] * numPlayers
+    # argsort returns a list that is the order of indeces that would result in sorted order
+    # e.g. argsort([1,2,0]) yields [2,0,1]
+    # changed result of argsort to do descending order
+    sorted_indeces = numpy.argsort(highestNums)[::-1]
+    # put players in same order as their sorted stats
+    for k in range(0,numPlayers):
+        orderedIndex = sorted_indeces[k]
+        orderedStatsPlayers[k] = highestPlayers[orderedIndex]
+    combinedStatsPlayersList = []
+    # combine the stat and player names into one array
+    for n in range(0, numPlayers):
+        combinedStatsPlayersList.append(str(sortedStats[n]) + " " + stat + " for " + orderedStatsPlayers[n])
+    return combinedStatsPlayersList
 
 def main():
     report = open("Fantasy Report.txt", "w")
@@ -119,7 +164,7 @@ def main():
     projections = pd.read_csv("Web Scraped Projections.csv")
     defenses = pd.read_csv("Defense Projections.csv")
 
-    # rank the players by position based on total projected points and average draft position
+    # rank the players by position based on total projected points and average draft position (ADP)
     # e.g. RB1, RB2, QB1, QB2, WR1, WR2, etc.
     rankingsDict = {}
     rankingsDict['RB_PROJ_Rank'] = 1
@@ -128,14 +173,7 @@ def main():
     rankingsDict['TE_PROJ_Rank'] = 1
     rankingsDict['D_PROJ_Rank'] = 1
     rankingsDict['K_PROJ_Rank'] = 1
-    # rankingsDict['RB_ADP_Rank'] = 1
-    # rankingsDict['WR_ADP_Rank'] = 1
-    # rankingsDict['QB_ADP_Rank'] = 1
-    # rankingsDict['TE_ADP_Rank'] = 1
-    # rankingsDict['D_ADP_Rank'] = 1
-    # rankingsDict['K_ADP_Rank'] = 1
     projections['POS PROJ RANK'] = ""
-    # projections['POS ADP RANK'] = ""
     defenses['POS PROJ RANK'] = 0
 
     # rank the players by position on projected points
@@ -151,17 +189,12 @@ def main():
         defenses.loc[i, 'POS PROJ RANK'] = rankingsDict['D_PROJ_Rank']
         rankingsDict['D_PROJ_Rank'] += 1
 
-    # rankings are essentially the same for projected and ADP
-    # rank the players by position on ADP
-    # projections.sort_values(by=['ADP', 'PROJ PTS'], ascending=False)
-    # for i in range(0,len(projections)):
-    #     rankByProjection(projections, i, rankingsDict, 'ADP')
 
     # concatenate the player and ADP columns of projections and defense to get rank by ADP
     # need PROJ PTS column to sort on if ADP is null
     PlayersAndDefense = pd.concat([projections[['PLAYER', 'ADP', 'PROJ PTS']],
                                    defenses[['TEAM', 'ADP', 'PROJ PTS']].rename(columns={'TEAM': 'PLAYER'})],
-                                  sort=False, ignore_index=True)
+                                  ignore_index=True)
     PlayersAndDefense = PlayersAndDefense.sort_values(by=['ADP', 'PROJ PTS'], ascending=[True, False])
     PlayersAndDefense = PlayersAndDefense.reset_index(drop=True)
     ADP_Rank = 1
@@ -222,19 +255,21 @@ def main():
     # write the information on biggest gaps to the report
     report.write("THE " + str(NUMBER_BIGGEST_GAPS) + " BIGGEST GAPS IN PROJECTED POINTS BETWEEN "
                                                      "CONSECUTIVELY PROJECTED RUNNING BACKS\n")
-    writeGaps(report, RB_Gaps)
+    writeStats(report, RB_Gaps)
     report.write("\nTHE " + str(NUMBER_BIGGEST_GAPS) + " BIGGEST GAPS IN PROJECTED POINTS BETWEEN "
                                                      "CONSECUTIVELY PROJECTED WIDE RECEIVERS\n")
-    writeGaps(report, WR_Gaps)
+    writeStats(report, WR_Gaps)
     report.write("\nTHE " + str(NUMBER_BIGGEST_GAPS) + " BIGGEST GAPS IN PROJECTED POINTS BETWEEN "
                                                      "CONSECUTIVELY PROJECTED QUARTERBACKS\n")
-    writeGaps(report, QB_Gaps)
+    writeStats(report, QB_Gaps)
     report.write("\nTHE " + str(NUMBER_BIGGEST_GAPS) + " BIGGEST GAPS IN PROJECTED POINTS BETWEEN "
                                                      "CONSECUTIVELY PROJECTED TIGHT ENDS\n")
-    writeGaps(report, TE_Gaps)
+    writeStats(report, TE_Gaps)
     report.write("\nTHE " + str(NUMBER_BIGGEST_GAPS) + " BIGGEST GAPS IN PROJECTED POINTS BETWEEN "
                                                      "CONSECUTIVELY PROJECTED KICKERS\n")
-    writeGaps(report, K_Gaps)
+    writeStats(report, K_Gaps)
+
+    print(findHighestForStat(runningBacks, "yards", N_PLAYERS_MOST_STATS))
 
     report.close()
 
