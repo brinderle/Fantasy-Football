@@ -222,3 +222,83 @@ THE 5 BIGGEST GAPS IN PROJECTED POINTS BETWEEN CONSECUTIVELY PROJECTED KICKERS
 	3.2 points between Phil Dawson and Jason Sanders
 	2.8 points between Josh Lambo and Sebastian Janikowski
 	2.6 points between Justin Tucker and Robbie Gould
+
+----------------------------------------------------------------
+
+MOST PROJECTED YARDS FOR QUARTERBACKS
+	4758.8 yards for Tom Brady
+	4592.2 yards for Ben Roethlisberger
+	4578.7 yards for Andrew Luck
+	4496.5 yards for Matthew Stafford
+	4463.3 yards for Kirk Cousins
+
+MOST PROJECTED YARDS FOR RUNNING BACKS
+	1954.4 yards for Le'Veon Bell
+	1869.2 yards for Todd Gurley II
+	1826.6 yards for David Johnson
+	1774.0 yards for Ezekiel Elliott
+	1666.0 yards for Saquon Barkley
+
+MOST PROJECTED YARDS FOR WIDE RECEIVERS
+	1575.6 yards for Antonio Brown
+	1497.9 yards for Julio Jones
+	1325.5 yards for DeAndre Hopkins
+	1320.6 yards for Odell Beckham Jr.
+	1319.6 yards for Keenan Allen
+
+MOST PROJECTED YARDS FOR TIGHT ENDS
+	1123.6 yards for Rob Gronkowski
+	1013.6 yards for Travis Kelce
+	914.0 yards for Greg Olsen
+	883.8 yards for Zach Ertz
+	819.7 yards for Delanie Walker
+
+MOST PROJECTED TOUCHDOWNS FOR QUARTERBACKS
+	35.2 touchdowns for Aaron Rodgers
+	35.1 touchdowns for Tom Brady
+	32.4 touchdowns for Carson Wentz
+	30.5 touchdowns for Andrew Luck
+	29.6 touchdowns for Ben Roethlisberger
+
+MOST PROJECTED TOUCHDOWNS FOR RUNNING BACKS
+	13.0 touchdowns for Todd Gurley II
+	13.0 touchdowns for Le'Veon Bell
+	12.4 touchdowns for Ezekiel Elliott
+	11.2 touchdowns for David Johnson
+	11.1 touchdowns for Leonard Fournette
+
+MOST PROJECTED TOUCHDOWNS FOR WIDE RECEIVERS
+	9.7 touchdowns for Davante Adams
+	9.5 touchdowns for DeAndre Hopkins
+	8.6 touchdowns for Antonio Brown
+	8.5 touchdowns for Mike Evans
+	8.5 touchdowns for Michael Thomas
+
+MOST PROJECTED TOUCHDOWNS FOR TIGHT ENDS
+	8.8 touchdowns for Rob Gronkowski
+	7.2 touchdowns for Jimmy Graham
+	7.2 touchdowns for Kyle Rudolph
+	7.0 touchdowns for Zach Ertz
+	6.6 touchdowns for Delanie Walker
+
+MOST PROJECTED RECEPTIONS FOR RUNNING BACKS
+	79.4 receptions for Le'Veon Bell
+	78.5 receptions for Christian McCaffrey
+	76.7 receptions for David Johnson
+	74.4 receptions for Alvin Kamara
+	67.1 receptions for Todd Gurley II
+
+MOST PROJECTED RECEPTIONS FOR WIDE RECEIVERS
+	110.5 receptions for Antonio Brown
+	104.8 receptions for Larry Fitzgerald
+	101.2 receptions for Keenan Allen
+	100.0 receptions for Michael Thomas
+	99.2 receptions for Odell Beckham Jr.
+
+MOST PROJECTED RECEPTIONS FOR TIGHT ENDS
+	81.5 receptions for Zach Ertz
+	81.3 receptions for Travis Kelce
+	72.2 receptions for Jordan Reed
+	72.2 receptions for Rob Gronkowski
+	70.8 receptions for Delanie Walker
+

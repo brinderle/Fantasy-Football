@@ -157,6 +157,12 @@ def findHighestForStat(positionalDF, stat, numPlayers):
         combinedStatsPlayersList.append(str(sortedStats[n]) + " " + stat + " for " + orderedStatsPlayers[n])
     return combinedStatsPlayersList
 
+def writeTDsYdsRec(statName, position, positionalDF, numPlayers, reportFile):
+    highestStatsInPosition = findHighestForStat(positionalDF,statName,numPlayers)
+    reportFile.write("MOST PROJECTED " + statName.upper() + " FOR " + position.upper() + "\n")
+    writeStats(reportFile,highestStatsInPosition)
+    reportFile.write("\n")
+
 def main():
     report = open("Fantasy Report.txt", "w")
 
@@ -269,7 +275,40 @@ def main():
                                                      "CONSECUTIVELY PROJECTED KICKERS\n")
     writeStats(report, K_Gaps)
 
-    print(findHighestForStat(runningBacks, "yards", N_PLAYERS_MOST_STATS))
+    report.write("\n")
+    report.write("----------------------------------------------------------------")
+    report.write("\n\n")
+
+    # write most yards per position
+    for positionName in ["quarterbacks", "running backs", "wide receivers", "tight ends"]:
+        positionalDF = runningBacks
+        if positionName == "quarterbacks":
+            positionalDF = quarterbacks
+        elif positionName == "tight ends":
+            positionalDF = tightEnds
+        elif positionName == "wide receivers":
+            positionalDF = wideRecievers
+        writeTDsYdsRec("yards", positionName, positionalDF, N_PLAYERS_MOST_STATS, report)
+
+    # write most touchdowns per position
+    for positionName in ["quarterbacks", "running backs", "wide receivers", "tight ends"]:
+        positionalDF = runningBacks
+        if positionName == "quarterbacks":
+            positionalDF = quarterbacks
+        elif positionName == "tight ends":
+            positionalDF = tightEnds
+        elif positionName == "wide receivers":
+            positionalDF = wideRecievers
+        writeTDsYdsRec("touchdowns", positionName, positionalDF, N_PLAYERS_MOST_STATS, report)
+
+    # write most receptions for position
+    for positionName in ["running backs", "wide receivers", "tight ends"]:
+        positionalDF = runningBacks
+        if positionName == "tight ends":
+            positionalDF = tightEnds
+        elif positionName == "wide receivers":
+            positionalDF = wideRecievers
+        writeTDsYdsRec("receptions", positionName, positionalDF, N_PLAYERS_MOST_STATS, report)
 
     report.close()
 
