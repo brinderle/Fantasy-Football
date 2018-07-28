@@ -1,0 +1,44 @@
+Todd Gurley,Todd Gurley II
+LeVeon Bell,Le'Veon Bell
+Odell Beckham Jr,Odell Beckham Jr.
+Pat Mahomes,Patrick Mahomes
+Mitch Trubisky,Mitchell Trubisky
+Will Fuller,Will Fuller V
+Jacksonville Defense,Jaguars
+LA Rams Defense,Rams
+LA Chargers Defense,Chargers
+Minnesota Defense,Vikings
+Donta Foreman,D'Onta Foreman
+Houston Defense,Texans
+Philadelphia Defense,Eagles
+CJ Anderson,C.J. Anderson
+Denver Defense,Broncos
+Baltimore Defense,Ravens
+New Orleans Defense,Saints
+Duke Johnson,Duke Johnson Jr.
+Carolina Defense,Panthers
+Chicago Defense,Bears
+Terrelle Pryor,Terrelle Pryor Sr.
+Pittsburgh Defense,Steelers
+New England Defense,Patriots
+Ted Ginn,Ted Ginn Jr.
+Marvin Jones, Marvin Jones Jr.
+Seattle Defense,Seahawks
+Arizona Defense,Cardinals
+Tennessee Defense,Titans
+Kansas City Defense,Chiefs
+Detroit Defense,Lions
+Atlanta Defense,Falcons
+Buffalo Defense,Bills
+Cleveland Defense,Browns
+Oakland Defense,Raiders
+NY Giants Defense,Giants
+Cincinnati Defense,Bengals
+Indianapolis Defense,Colts
+Dallas Defense,Cowboys
+San Francisco Defense,49ers
+Green Bay Defense,Packers
+Miami Defense,Dolphins
+NY Jets Defense,Jets
+Tampa Bay Defense,Buccaneers
+Washington Defense,Redskins

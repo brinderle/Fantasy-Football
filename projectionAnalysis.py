@@ -14,6 +14,8 @@ N_PLAYERS_MOST_STATS = 5 # display top n players for stats
 
 
 def rankByProjection(dataFrame, playerIndex, rankingsDict, rankType):
+    dataFrame = dataFrame.sort_values(by=['PROJ PTS'], ascending=False)
+    dataFrame = dataFrame.reset_index(drop=True)
     position = dataFrame.loc[playerIndex, 'POSITION']
     positionRankingVar = position + "_" + rankType + "_Rank"
     positionRanking = position + str(rankingsDict[positionRankingVar])
@@ -25,17 +27,18 @@ def rankByProjection(dataFrame, playerIndex, rankingsDict, rankType):
 
 # get the average projected points for the round and position passed, position can be "ALL" to include all positions
 # round number passed should be greater than or equal to one
+# I am in a league with 2 quarterbacks so that's why I project based on this column rather than ADP RANK
 def AveragePointsForRound(projectionsDF, roundNumber, position):
     # first pick is offset by the number of picks already made in previous rounds
     firstPick = NUMBER_OF_TEAMS * (roundNumber - 1) + 1
     lastPick = firstPick + 11
     if (position == "ALL"):
-        projectedPlayersInRound = projectionsDF[(projectionsDF['ADP RANK'] >= firstPick) &
-                                                (projectionsDF['ADP RANK'] <= lastPick)]
+        projectedPlayersInRound = projectionsDF[(projectionsDF['2QB RANK'] >= firstPick) &
+                                                (projectionsDF['2QB RANK'] <= lastPick)]
         average = projectedPlayersInRound['PROJ PTS'].sum() / NUMBER_OF_TEAMS
     else:
-        projectedPlayersInRound = projectionsDF[(projectionsDF['ADP RANK'] >= firstPick) &
-                                                (projectionsDF['ADP RANK'] <= lastPick) &
+        projectedPlayersInRound = projectionsDF[(projectionsDF['2QB RANK'] >= firstPick) &
+                                                (projectionsDF['2QB RANK'] <= lastPick) &
                                                 (projectionsDF['POSITION'] == position)]
         NumPlayersOfPositionInRound = len(projectedPlayersInRound)
         if (NumPlayersOfPositionInRound > 0):
@@ -45,17 +48,18 @@ def AveragePointsForRound(projectionsDF, roundNumber, position):
     return average
 
 
+# I am in a league with 2 quarterbacks so that's why I project based on this column rather than ADP RANK
 def MaxProjPointsForRound(projectionsDF, roundNumber, position):
     # first pick is offset by the number of picks already made in previous rounds
     firstPick = NUMBER_OF_TEAMS * (roundNumber - 1) + 1
     lastPick = firstPick + 11
     if (position == "ALL"):
-        projectedPlayersInRound = projectionsDF[(projectionsDF['ADP RANK'] >= firstPick) &
-                                                (projectionsDF['ADP RANK'] <= lastPick)]
+        projectedPlayersInRound = projectionsDF[(projectionsDF['2QB RANK'] >= firstPick) &
+                                                (projectionsDF['2QB RANK'] <= lastPick)]
         max = projectedPlayersInRound['PROJ PTS'].max()
     else:
-        projectedPlayersInRound = projectionsDF[(projectionsDF['ADP RANK'] >= firstPick) &
-                                                (projectionsDF['ADP RANK'] <= lastPick) &
+        projectedPlayersInRound = projectionsDF[(projectionsDF['2QB RANK'] >= firstPick) &
+                                                (projectionsDF['2QB RANK'] <= lastPick) &
                                                 (projectionsDF['POSITION'] == position)]
         NumPlayersOfPositionInRound = len(projectedPlayersInRound)
         if (NumPlayersOfPositionInRound > 0):
@@ -183,8 +187,6 @@ def main():
     defenses['POS PROJ RANK'] = 0
 
     # rank the players by position on projected points
-    projections = projections.sort_values(by=['PROJ PTS'], ascending=False)
-    projections = projections.reset_index(drop=True)
     for i in range(0, len(projections)):
         rankByProjection(projections, i, rankingsDict, 'PROJ')
 
@@ -198,8 +200,8 @@ def main():
 
     # concatenate the player and ADP columns of projections and defense to get rank by ADP
     # need PROJ PTS column to sort on if ADP is null
-    PlayersAndDefense = pd.concat([projections[['PLAYER', 'ADP', 'PROJ PTS']],
-                                   defenses[['TEAM', 'ADP', 'PROJ PTS']].rename(columns={'TEAM': 'PLAYER'})],
+    PlayersAndDefense = pd.concat([projections[['PLAYER','POSITION','ADP','2QB RANK','PROJ PTS']],
+                                   defenses[['TEAM','POSITION','ADP','2QB RANK','PROJ PTS']].rename(columns={'TEAM': 'PLAYER'})],
                                   ignore_index=True)
     PlayersAndDefense = PlayersAndDefense.sort_values(by=['ADP', 'PROJ PTS'], ascending=[True, False])
     PlayersAndDefense = PlayersAndDefense.reset_index(drop=True)
@@ -223,7 +225,7 @@ def main():
     kickers = projections[projections['POSITION'] == 'K']
 
     # for each position or all positions, generate the average and max projected points for each round, write to report
-    for position in ['ALL', 'RB', 'WR', 'QB', 'TE']:
+    for position in ['ALL', 'RB', 'WR', 'QB', 'TE', 'D/ST']:
         # set up a header for stats on this position
         if (position == 'ALL'):
             report.write("AVERAGE AND MAX PROJECTED POINTS FOR ALL PLAYERS IN EACH ROUND\n\n")
@@ -233,19 +235,19 @@ def main():
         for i in range(1, NUMBER_OF_ROUNDS + 1):
             if position == 'ALL':
                 report.write("Average projected points per player in Round " +
-                             str(i) + ": " + str(AveragePointsForRound(projections, i, position)) + "\n")
+                             str(i) + ": " + str(AveragePointsForRound(PlayersAndDefense, i, position)) + "\n")
             else:
                 report.write("Average projected points per " + position + " in Round " +
-                             str(i) + ": " + str(AveragePointsForRound(projections, i, position)) + "\n")
+                             str(i) + ": " + str(AveragePointsForRound(PlayersAndDefense, i, position)) + "\n")
         report.write("\n")
         # get max per round
         for i in range(1, NUMBER_OF_ROUNDS + 1):
             if position == 'ALL':
                 report.write("Max points of player projected to be drafted in Round " + str(i) + ": " +
-                             str(MaxProjPointsForRound(projections, i, position)) + "\n")
+                             str(MaxProjPointsForRound(PlayersAndDefense, i, position)) + "\n")
             else:
                 report.write("Max points of " + position + " projected to be drafted in Round " + str(i) + ": " +
-                             str(MaxProjPointsForRound(projections, i, position)) + "\n")
+                             str(MaxProjPointsForRound(PlayersAndDefense, i, position)) + "\n")
         report.write("\n")
         report.write("----------------------------------------------------------------")
         report.write("\n\n")
