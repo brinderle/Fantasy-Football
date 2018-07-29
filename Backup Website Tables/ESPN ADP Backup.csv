@@ -1,0 +1,201 @@
+﻿RANK,"PLAYER, TEAM",POS,AVG PICK,7 DAY +/-,AVG VALUE,%OWN
+1,"Le'Veon Bell, Pit",RB,1.8,0.5,61.7,99.9
+2,"Todd Gurley II, LAR",RB,2,0.8,64.4,99.9
+3,"David Johnson, Ari",RB,4.3,0.3,58.4,99.9
+4,"Ezekiel Elliott, Dal",RB,4.4,0.3,61.7,99.9
+5,"Antonio Brown, Pit",WR,4.9,0.8,56.1,99.9
+6,"Saquon Barkley, NYG",RB,6.5,1.1,53.9,99.6
+7,"Alvin Kamara, NO",RB,6.9,0.7,53.3,99.9
+8,"Julio Jones, Atl",WR,9.6,0.6,46.1,99.8
+9,"DeAndre Hopkins, Hou",WR,10.2,0.3,49.5,99.9
+10,"Leonard Fournette, Jax",RB,11.4,0.6,48.6,99.9
+11,"Kareem Hunt, KC",RB,12,-0.1,47.3,99.8
+12,"Odell Beckham Jr., NYG",WR,12.2,0.3,46.1,99.8
+13,"Melvin Gordon, LAC",RB,14.6,0.7,43.1,99.8
+14,"Dalvin Cook, Min",RB,14.8,0.7,41.7,99.6
+15,"Keenan Allen, LAC",WR,16,0.6,40.3,99.8
+16,"Michael Thomas, NO",WR,17.8,0.4,39.8,99.8
+17,"A.J. Green, Cin",WR,19.8,0.3,36.8,99.8
+18,"LeSean McCoy, Buf",RB,19.8,0.2,35.8,99.7
+19,"Rob Gronkowski, NE",TE,20.2,0.7,32.8,99.9
+20,"Christian McCaffrey, Car",RB,21.4,0.7,33.7,99.7
+21,"Devonta Freeman, Atl",RB,22.1,0.4,34.4,99.6
+22,"Davante Adams, GB",WR,23.1,0.1,34.4,99.7
+23,"Aaron Rodgers, GB",QB,25.5,-1.2,23.2,99.8
+24,"Mike Evans, TB",WR,26.7,0.1,31.7,99.7
+25,"Adam Thielen, Min",WR,27.2,0.6,27.7,99.7
+26,"Travis Kelce, KC",TE,29,0.1,26.5,99.9
+27,"T.Y. Hilton, Ind",WR,30.3,1,24.6,99.5
+28,"Larry Fitzgerald, Ari",WR,31.9,0.8,23.3,99.4
+29,"Tom Brady, NE",QB,32,-1.3,18.8,99.8
+30,"Jordan Howard, Chi",RB,32.1,0.2,24,99.1
+31,"Zach Ertz, Phi",TE,32.8,0.7,22.1,99.8
+32,"Jerick McKinnon, SF",RB,32.8,0.2,23.8,99
+33,"Tyreek Hill, KC",WR,33,0.2,25.3,99.7
+34,"Stefon Diggs, Min",WR,34,1.2,21.2,99.6
+35,"Doug Baldwin, Sea",WR,34.1,0.5,24.4,99.4
+36,"Joe Mixon, Cin",RB,39.4,0.3,21.1,98.3
+37,"Demaryius Thomas, Den",WR,42.1,0.6,18.8,98.4
+38,"Allen Robinson, Chi",WR,42.4,1.2,17.1,98
+39,"Josh Gordon*, Cle",WR,44.4,0.5,18,98.2
+40,"Derrius Guice, Wsh",RB,44.8,0.7,16.7,97.2
+41,"Kenyan Drake, Mia",RB,46.4,0.2,15.4,97.8
+42,"Amari Cooper, Oak",WR,47.2,1.2,14.6,98.4
+43,"Golden Tate, Det",WR,47.2,1.1,15.3,98.3
+44,"JuJu Smith-Schuster, Pit",WR,47.3,0.7,15.7,99
+45,"Alshon Jeffery*, Phi",WR,48.9,0.3,16,98
+46,"Rashaad Penny, Sea",RB,49.3,0.2,15.5,96.7
+47,"Deshaun Watson, Hou",QB,50.9,-0.2,12.5,98.6
+48,"Sony Michel, NE",RB,51.4,0.7,12.4,95.9
+49,"Jarvis Landry, Cle",WR,51.8,0.8,12.4,98.5
+50,"Derrick Henry, Ten",RB,52.7,-0.3,15.6,97.2
+51,"Marshawn Lynch, Oak",RB,53.5,0.4,10.9,97
+52,"Jay Ajayi, Phi",RB,54.7,-0.5,14.5,97.7
+53,"Greg Olsen, Car",TE,55,-0.1,9,99.5
+54,"Carson Wentz, Phi",QB,55.8,-0.2,8,99.5
+55,"Alex Collins, Bal",RB,56.5,0.2,12.4,96.6
+56,"Russell Wilson, Sea",QB,56.7,-0.8,11.2,99
+57,"Ronald Jones II, TB",RB,57.8,0.6,11,94.6
+58,"Brandin Cooks, LAR",WR,61.2,0.5,9.3,97.1
+59,"Marvin Jones Jr., Det",WR,61.2,0.6,8.9,96.7
+60,"Jimmy Graham, GB",TE,61.5,0,9.6,97.7
+61,"Royce Freeman, Den",RB,61.5,0.1,11.2,94.7
+62,"Cam Newton, Car",QB,62.8,0,6.4,98.8
+63,"Delanie Walker, Ten",TE,64.9,0,6.5,98.3
+64,Jaguars D/ST,D/ST,65.4,-0.1,9,99.8
+65,"Mark Ingram, NO",RB,65.8,-1.4,15.9,96.8
+66,"Evan Engram, NYG",TE,66.4,0.1,6.8,98
+67,"Robert Woods, LAR",WR,67.2,0.3,7.5,94.6
+68,"Emmanuel Sanders, Den",WR,69,0.3,7.3,94.6
+69,"Chris Hogan, NE",WR,69.4,0.6,5.9,95.5
+70,"Michael Crabtree, Bal",WR,70.3,0.6,6.7,94.9
+71,"Dion Lewis, Ten",RB,72.4,0.6,6.1,94.8
+72,"Pierre Garcon, SF",WR,77.2,0.2,6.1,92.4
+73,"Sammy Watkins, KC",WR,77.3,0.3,6,95.1
+74,"Duke Johnson Jr., Cle",RB,79.3,0.5,4.8,90.2
+75,"Lamar Miller, Hou",RB,80.3,0.1,5.4,95
+76,"Drew Brees, NO",QB,80.5,0.3,5.7,97
+77,"Corey Davis, Ten",WR,80.9,0.4,4.9,92
+78,"Will Fuller V, Hou",WR,82,0.4,4.4,94.1
+79,"Devin Funchess, Car",WR,84.3,0.2,4.5,93.7
+80,"Jordan Reed, Wsh",TE,84.9,0.1,3.8,95.4
+81,Rams D/ST,D/ST,85.1,-0.2,5.3,99.6
+82,"Randall Cobb, GB",WR,85.7,0.4,3.6,91.2
+83,Eagles D/ST,D/ST,86.7,-0.1,3.7,99.6
+84,"Kyle Rudolph, Min",TE,87.2,0.1,4.1,95.8
+85,"Tevin Coleman, Atl",RB,87.6,0.2,4,92.7
+86,"Cooper Kupp, LAR",WR,89.4,0.1,3.8,91.9
+87,"Kirk Cousins, Min",QB,90.3,-0.3,4.2,96.2
+88,"Ben Roethlisberger, Pit",QB,91.3,0,2.3,95.7
+89,"Julian Edelman, NE",WR,91.4,-0.7,6.7,93.7
+90,"DeVante Parker, Mia",WR,94.7,0.1,3.1,87.2
+91,"Kerryon Johnson, Det",RB,95.4,0.2,3.2,83.9
+92,"Tarik Cohen, Chi",RB,96,0.3,2.3,85.4
+93,"Robby Anderson, NYJ",WR,96,0.3,2.4,84.4
+94,"Kelvin Benjamin, Buf",WR,96.1,0.1,2.5,88.7
+95,"Jordy Nelson, Oak",WR,97.3,0.1,3.1,91.5
+96,"Marlon Mack, Ind",RB,98.4,0.3,3.2,86.5
+97,"Stephen Gostkowski, NE",K,100.7,0,3.8,99.7
+98,"Andrew Luck, Ind",QB,100.8,0.2,2.9,93.2
+99,"Jimmy Garoppolo, SF",QB,101.7,0.1,3.4,86.8
+100,Vikings D/ST,D/ST,102.6,0,3,99.1
+101,"Chris Thompson, Wsh",RB,104,0.1,2,81.2
+102,"Jamison Crowder, Wsh",WR,105.6,0.1,1.9,80.7
+103,"Marquise Goodwin, SF",WR,106.4,0.1,2,83.1
+104,"Jack Doyle, Ind",TE,108.3,-0.1,2.4,92.5
+105,"Jamaal Williams, GB",RB,108.4,0,2.3,83.5
+106,"Dez Bryant, FA",WR,108.6,-0.3,3.2,85
+107,"Matthew Stafford, Det",QB,108.7,0.1,2.1,90.9
+108,"Greg Zuerlein, LAR",K,109.6,-0.2,3.5,99.3
+109,"DeSean Jackson, TB",WR,109.7,0,1.6,75
+110,"Dak Prescott, Dal",QB,111.8,0.2,2.1,43.4
+111,"Isaiah Crowell, NYJ",RB,112.1,0,2,79.8
+112,"Nick Chubb, Cle",RB,112.4,0,2.3,79.9
+113,"Trey Burton, Chi",TE,113.7,0,2.1,80.6
+114,"Rex Burkhead, NE",RB,114.8,0.1,1.5,69.6
+115,"Matt Ryan, Atl",QB,115.8,0.1,2.3,72.3
+116,"Patrick Mahomes, KC",QB,118.1,0.1,2.2,77.7
+117,"D'Onta Foreman*, Hou",RB,118.3,0,1.3,63.7
+118,"Ty Montgomery, GB",RB,118.4,0.1,1.4,56
+119,Texans D/ST,D/ST,118.7,-0.1,1.7,96
+120,"Marqise Lee, Jax",WR,119,0.1,1.4,72.1
+121,"Nelson Agholor, Phi",WR,119.3,0.1,1.6,75.9
+122,"Jared Goff, LAR",QB,119.4,0.2,2,60.1
+123,"Justin Tucker, Bal",K,120.4,0,2.3,99.2
+124,"Philip Rivers, LAC",QB,120.4,0.1,1.6,80.1
+125,"Sterling Shepard, NYG",WR,121.6,0.1,1.4,71.5
+126,"Carlos Hyde, Cle",RB,121.6,0,1.8,70.8
+127,Ravens D/ST,D/ST,122.1,-0.1,1.7,96.3
+128,"Derek Carr, Oak",QB,122.7,0,0,23.3
+129,"Alex Smith, Wsh",QB,122.8,0.1,1.5,63
+130,"Kenny Stills, Mia",WR,123.5,0,1.2,65.6
+131,"Josh Doctson, Wsh",WR,124.4,0,1.2,60.8
+132,"Eli Manning, NYG",QB,125.6,0,0,9.9
+133,"Mitchell Trubisky, Chi",QB,126.3,1.6,1.6,19.2
+134,"Allen Hurns, Dal",WR,126.6,0,1.6,67.5
+135,"Marcus Mariota, Ten",QB,127.7,0,0,34.9
+136,"Calvin Ridley, Atl",WR,128,0,1.8,61.8
+137,"David Njoku, Cle",TE,128,0,1.6,59.1
+138,Chargers D/ST,D/ST,129.5,0,1.6,93.2
+139,"Tyler Eifert*, Cin",TE,130,0,1.3,64.9
+140,Patriots D/ST,D/ST,130.2,0,1.3,91.1
+141,"Charles Clay, Buf",TE,130.4,0.1,1.3,54.8
+142,Cowboys D/ST,D/ST,130.4,0,0,10
+143,"Jared Cook, Oak",TE,131.6,0,0,17.1
+144,"O.J. Howard, TB",TE,131.9,0,0,13.8
+145,"Rishard Matthews, Ten",WR,132.2,0,1.1,56.8
+146,"C.J. Anderson, Car",RB,132.3,0,1.9,59.2
+147,"Giovani Bernard, Cin",RB,132.6,0,1.1,48.3
+148,"LeGarrette Blount, Det",RB,133.1,0.1,1.6,33.9
+149,"Devontae Booker, Den",RB,133.2,0,1.2,51
+150,"Aaron Jones, GB",RB,133.2,0,1.4,42.9
+151,Broncos D/ST,D/ST,133.5,0,1.5,88.1
+152,Seahawks D/ST,D/ST,133.5,0,0,10.6
+153,"Frank Gore, Mia",RB,133.6,0,0,12.7
+154,"Chris Boswell, Pit",K,133.7,-0.1,1.4,94.5
+155,"Latavius Murray, Min",RB,134.1,0,0,36.1
+156,"George Kittle, SF",TE,134.1,0,0,35.1
+157,"James White, NE",RB,134.2,0.1,1.1,49.2
+158,"Benjamin Watson, NO",TE,134.3,0,0,19.8
+159,"Corey Clement, Phi",RB,134.5,0,0,13.2
+160,"Mohamed Sanu, Atl",WR,134.7,0.1,1.2,54.6
+161,"Cameron Brate, TB",TE,134.8,1.4,1.4,34.9
+162,"Austin Seferian-Jenkins, Jax",TE,134.9,0,0,15.3
+163,Bears D/ST,D/ST,135.2,0,0,8.9
+164,Steelers D/ST,D/ST,135.5,0,0,25.6
+165,"Mike Gesicki, Mia",TE,135.5,0,0,11.8
+166,"D.J. Moore, Car",WR,135.6,0,1.5,42.8
+167,"Vance McDonald, Pit",TE,135.9,0,0,10.6
+168,"Kenny Golladay, Det",WR,136,0.1,1.3,51.1
+169,"Martavis Bryant, Oak",WR,136.3,0.1,1.2,37.7
+170,"Anthony Miller, Chi",WR,136.7,0,0,19.5
+171,"Mike Williams, LAC",WR,137.1,0,0,19.2
+172,"Theo Riddick, Det",RB,137.3,0,1.1,43.9
+173,"Ted Ginn Jr., NO",WR,137.4,0,0,13.7
+174,"Matt Bryant, Atl",K,137.5,0,1.3,96.8
+175,"Dan Bailey, Dal",K,137.5,0,0,25.1
+176,"Chris Carson, Sea",RB,138,0,0,23.1
+177,"Paul Richardson, Wsh",WR,138.2,0,1.2,37.1
+178,"Eric Ebron, Ind",TE,138.7,0,0,11.4
+179,"Jordan Wilkins, Ind",RB,138.9,0,0,15.7
+180,"Christian Kirk, Ari",WR,139.2,0,0,17.3
+181,"Mason Crosby, GB",K,139.3,0,0,11.6
+182,"Nyheim Hines, Ind",RB,139.4,0,0,15.8
+183,"Cameron Meredith, NO",WR,140.1,0.1,1.2,31.7
+184,"Jordan Matthews, NE",WR,140.1,0,0,25.5
+185,"Michael Gallup, Dal",WR,140.5,0,0,23
+186,"Tyler Lockett, Sea",WR,140.9,0.1,1.2,36.9
+187,"Kenneth Dixon, Bal",RB,140.9,0,0,17.5
+188,"Bilal Powell, NYJ",RB,142.9,0.1,1.2,22.5
+189,Saints D/ST,D/ST,144,0,1.1,61
+190,"John Ross, Cin",WR,144.1,0,0,16.7
+191,"Jake Elliott, Phi",K,144.2,0,1.1,86.6
+192,Panthers D/ST,D/ST,144.7,0,1,70.4
+193,Cardinals D/ST,D/ST,144.8,0,0,20.4
+194,"Robbie Gould, SF",K,146.3,0,1.2,88.2
+195,"Wil Lutz, NO",K,146.4,0,1.2,92.9
+196,Lions D/ST,D/ST,147.3,0,0,13.1
+197,Titans D/ST,D/ST,148.3,1,1,37.1
+198,"Matt Prater, Det",K,148.9,0,1.2,75.7
+199,Redskins D/ST,D/ST,150.8,0,0,12.3
+200,"Ryan Succop, Ten",K,150.9,0,0,10.4
