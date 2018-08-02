@@ -9,13 +9,13 @@ Average projected points per player in Round 6: 201.96666666666667
 Average projected points per player in Round 7: 199.3083333333333
 Average projected points per player in Round 8: 181.0
 Average projected points per player in Round 9: 172.45000000000002
-Average projected points per player in Round 10: 140.14166666666668
-Average projected points per player in Round 11: 139.01666666666668
+Average projected points per player in Round 10: 127.78333333333335
+Average projected points per player in Round 11: 151.37499999999997
 Average projected points per player in Round 12: 134.1
 Average projected points per player in Round 13: 125.23333333333333
 Average projected points per player in Round 14: 118.98333333333333
 Average projected points per player in Round 15: 108.91666666666667
-Average projected points per player in Round 16: 105.52500000000002
+Average projected points per player in Round 16: 114.52499999999999
 
 Max points of player projected to be drafted in Round 1: 352.2
 Max points of player projected to be drafted in Round 2: 319.0
@@ -26,8 +26,8 @@ Max points of player projected to be drafted in Round 6: 252.9
 Max points of player projected to be drafted in Round 7: 263.6
 Max points of player projected to be drafted in Round 8: 240.4
 Max points of player projected to be drafted in Round 9: 252.2
-Max points of player projected to be drafted in Round 10: 254.5
-Max points of player projected to be drafted in Round 11: 198.7
+Max points of player projected to be drafted in Round 10: 189.8
+Max points of player projected to be drafted in Round 11: 254.5
 Max points of player projected to be drafted in Round 12: 254.6
 Max points of player projected to be drafted in Round 13: 172.9
 Max points of player projected to be drafted in Round 14: 201.4
@@ -123,8 +123,8 @@ Average projected points per QB in Round 6: 246.8
 Average projected points per QB in Round 7: 248.80000000000004
 Average projected points per QB in Round 8: 231.5
 Average projected points per QB in Round 9: 252.2
-Average projected points per QB in Round 10: 254.5
-Average projected points per QB in Round 11: 0
+Average projected points per QB in Round 10: 0
+Average projected points per QB in Round 11: 254.5
 Average projected points per QB in Round 12: 184.35
 Average projected points per QB in Round 13: 101.8
 Average projected points per QB in Round 14: 201.4
@@ -140,8 +140,8 @@ Max points of QB projected to be drafted in Round 6: 252.9
 Max points of QB projected to be drafted in Round 7: 263.6
 Max points of QB projected to be drafted in Round 8: 240.4
 Max points of QB projected to be drafted in Round 9: 252.2
-Max points of QB projected to be drafted in Round 10: 254.5
-Max points of QB projected to be drafted in Round 11: 0
+Max points of QB projected to be drafted in Round 10: 0
+Max points of QB projected to be drafted in Round 11: 254.5
 Max points of QB projected to be drafted in Round 12: 254.6
 Max points of QB projected to be drafted in Round 13: 122.3
 Max points of QB projected to be drafted in Round 14: 201.4
@@ -199,13 +199,13 @@ Average projected points per D/ST in Round 6: 0
 Average projected points per D/ST in Round 7: 0
 Average projected points per D/ST in Round 8: 0
 Average projected points per D/ST in Round 9: 123.0
-Average projected points per D/ST in Round 10: 106.5
-Average projected points per D/ST in Round 11: 108.43333333333334
+Average projected points per D/ST in Round 10: 106.40000000000002
+Average projected points per D/ST in Round 11: 109.55
 Average projected points per D/ST in Round 12: 104.2
 Average projected points per D/ST in Round 13: 96.9
 Average projected points per D/ST in Round 14: 98.0
 Average projected points per D/ST in Round 15: 88.6
-Average projected points per D/ST in Round 16: 91.7
+Average projected points per D/ST in Round 16: 99.85
 
 Max points of D/ST projected to be drafted in Round 1: 0
 Max points of D/ST projected to be drafted in Round 2: 0
@@ -222,7 +222,7 @@ Max points of D/ST projected to be drafted in Round 12: 104.2
 Max points of D/ST projected to be drafted in Round 13: 107.8
 Max points of D/ST projected to be drafted in Round 14: 98.0
 Max points of D/ST projected to be drafted in Round 15: 88.6
-Max points of D/ST projected to be drafted in Round 16: 91.7
+Max points of D/ST projected to be drafted in Round 16: 108.0
 
 ----------------------------------------------------------------
 
@@ -258,7 +258,7 @@ THE 5 BIGGEST GAPS IN PROJECTED POINTS BETWEEN CONSECUTIVELY PROJECTED KICKERS
 	4.0 points between Chris Boswell and Matt Prater
 	3.6 points between Wil Lutz and Daniel Carlson
 	3.2 points between Phil Dawson and Jason Sanders
-	2.8 points between Dustin Hopkins and Sebastian Janikowski
+	2.8 points between Josh Lambo and Sebastian Janikowski
 	2.6 points between Justin Tucker and Robbie Gould
 
 ----------------------------------------------------------------
@@ -309,8 +309,8 @@ MOST PROJECTED TOUCHDOWNS FOR WIDE RECEIVERS
 	9.7 touchdowns for Davante Adams
 	9.5 touchdowns for DeAndre Hopkins
 	8.6 touchdowns for Antonio Brown
-	8.5 touchdowns for Mike Evans
 	8.5 touchdowns for Michael Thomas
+	8.5 touchdowns for Mike Evans
 
 MOST PROJECTED TOUCHDOWNS FOR TIGHT ENDS
 	8.8 touchdowns for Rob Gronkowski

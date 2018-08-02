@@ -167,6 +167,32 @@ def writeTDsYdsRec(statName, position, positionalDF, numPlayers, reportFile):
     writeStats(reportFile,highestStatsInPosition)
     reportFile.write("\n")
 
+def valueAboveBenchPlayer(projectionsDF, playerIndex,NumberOfTeams ,TwoQBFlag):
+    projectionsDF = projectionsDF.sort_values(by=['PROJ PTS'], ascending=False)
+    projectionsDF = projectionsDF.reset_index(drop=True)
+    # determine the baseline player, which is best bench player at the position
+    position = projectionsDF.loc[playerIndex,'POSITION']
+    if (position == 'RB'):
+        firstBenchIndex = 2 * NumberOfTeams
+    elif (position =='QB'):
+        if (TwoQBFlag):
+            firstBenchIndex = 2 * NumberOfTeams
+        else:
+            firstBenchIndex = NumberOfTeams
+    elif (position == 'WR'):
+        firstBenchIndex = 3 * NumberOfTeams
+    elif (position == 'TE' or position == 'K' or position == 'D/ST'):
+        firstBenchIndex = NumberOfTeams
+    positionalDF = projectionsDF[projectionsDF['POSITION'] == position]
+    positionalDF = positionalDF.reset_index(drop=True)
+    baselinePlayerPoints = positionalDF.loc[firstBenchIndex]['PROJ PTS']
+
+    # determine value of current player over baseline player
+    currentPlayerProjPts = projectionsDF.loc[playerIndex]['PROJ PTS']
+    valueAboveBenchPlayer = currentPlayerProjPts - baselinePlayerPoints
+
+    return valueAboveBenchPlayer
+
 def main():
     report = open("Fantasy Report.txt", "w")
 
@@ -312,6 +338,15 @@ def main():
             positionalDF = wideRecievers
         writeTDsYdsRec("receptions", positionName, positionalDF, N_PLAYERS_MOST_STATS, report)
 
+    # get value above bench player for each player
+    PlayersAndDefense = PlayersAndDefense.sort_values(by=['PROJ PTS'], ascending=False)
+    PlayersAndDefense = PlayersAndDefense.reset_index(drop=True)
+    for i in range(0,len(PlayersAndDefense)):
+        PlayersAndDefense.loc[i,'VABP'] = valueAboveBenchPlayer(PlayersAndDefense,i,NUMBER_OF_TEAMS,True)
+
+    PlayersAndDefense = PlayersAndDefense.sort_values(by=['VABP'], ascending=False)
+    PlayersAndDefense = PlayersAndDefense.reset_index(drop=True)
+    print(PlayersAndDefense)
     report.close()
 
     return 0
