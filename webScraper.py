@@ -34,8 +34,8 @@ def Get_2QB_Data():
         FFC_Player_Rankings.loc[FFC_Table_Row_Index] = playerData
         FFC_Table_Row_Index += 1
 
-    FFC_Player_Rankings = FFC_Player_Rankings[['Rank', 'Name']]
-    FFC_Player_Rankings = FFC_Player_Rankings.rename(columns={'Rank': '2QB RANK','Name': 'PLAYER'})
+    FFC_Player_Rankings = FFC_Player_Rankings[['Rk', 'Name']]
+    FFC_Player_Rankings = FFC_Player_Rankings.rename(columns={'Rk': '2QB RANK','Name': 'PLAYER'})
     # convert 2QB RANK to int so it can be sorted on this rank
     FFC_Player_Rankings['2QB RANK'] = FFC_Player_Rankings['2QB RANK'].apply(int)
 

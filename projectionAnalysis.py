@@ -344,10 +344,13 @@ def main():
     for i in range(0,len(PlayersAndDefense)):
         PlayersAndDefense.loc[i,'VABP'] = valueAboveBenchPlayer(PlayersAndDefense,i,NUMBER_OF_TEAMS,True)
 
+    PlayersAndDefense = PlayersAndDefense[['PLAYER', 'POSITION', 'PROJ PTS', 'ADP', 'ADP RANK', '2QB RANK', 'VABP']]
     PlayersAndDefense = PlayersAndDefense.sort_values(by=['VABP'], ascending=False)
     PlayersAndDefense = PlayersAndDefense.reset_index(drop=True)
     print(PlayersAndDefense)
     report.close()
+
+    PlayersAndDefense.to_csv('Players and Defense Metrics.csv',index=False)
 
     return 0
 
