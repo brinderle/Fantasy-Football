@@ -191,7 +191,7 @@ def valueAboveBenchPlayer(projectionsDF, playerIndex,NumberOfTeams ,TwoQBFlag):
     currentPlayerProjPts = projectionsDF.loc[playerIndex]['PROJ PTS']
     valueAboveBenchPlayer = currentPlayerProjPts - baselinePlayerPoints
 
-    return valueAboveBenchPlayer
+    return round(valueAboveBenchPlayer,1)
 
 def main():
     report = open("Fantasy Report.txt", "w")
