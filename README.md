@@ -1,5 +1,5 @@
 # Fantasy Football
-This repository contains two python scripts.
+This repository contains two main python scripts and a helper file containing functions.
 
 The first file, webScraper.py, reads in fantasy football projections from ESPN dynamically through web scraping, does a bit of organization on the data, and then writes the information to two csv files, "Web Scraped Projections.csv" containing projections for the normal players you would encounter in fantasy football (QB, RB, WR, TE, K), and "Defense Projections.csv" containing projections for team defenses.
 
