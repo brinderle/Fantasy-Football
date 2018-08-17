@@ -23,6 +23,9 @@ Pittsburgh Defense,Steelers
 New England Defense,Patriots
 Ted Ginn,Ted Ginn Jr.
 Marvin Jones, Marvin Jones Jr.
+Ronald Jones II, Ronald Jones
+Mark Ingram, Mark Ingram II
+D.J. Moore, DJ Moore
 Seattle Defense,Seahawks
 Arizona Defense,Cardinals
 Tennessee Defense,Titans
