@@ -156,7 +156,7 @@ def writeTDsYdsRec(statName, position, positionalDF, numPlayers, reportFile):
     writeStats(reportFile,highestStatsInPosition)
     reportFile.write("\n")
 
-def valueAboveBenchPlayer(projectionsDF, playerIndex,NumberOfTeams ,TwoQBFlag):
+def valueOverBenchPlayer(projectionsDF, playerIndex,NumberOfTeams ,TwoQBFlag):
     projectionsDF = projectionsDF.sort_values(by=['PROJ PTS'], ascending=False)
     projectionsDF = projectionsDF.reset_index(drop=True)
     # determine the baseline player, which is best bench player at the position

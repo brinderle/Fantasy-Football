@@ -155,14 +155,14 @@ def main():
             positionalDF = wideRecievers
         h.writeTDsYdsRec("receptions", positionName, positionalDF, N_PLAYERS_MOST_STATS, report)
 
-    # get value above bench player for each player
+    # get value over bench player for each player
     PlayersAndDefense = PlayersAndDefense.sort_values(by=['PROJ PTS'], ascending=False)
     PlayersAndDefense = PlayersAndDefense.reset_index(drop=True)
     for i in range(0,len(PlayersAndDefense)):
-        PlayersAndDefense.loc[i,'VABP'] = h.valueAboveBenchPlayer(PlayersAndDefense,i,NUMBER_OF_TEAMS,True)
+        PlayersAndDefense.loc[i,'VOBP'] = h.valueOverBenchPlayer(PlayersAndDefense,i,NUMBER_OF_TEAMS,True)
 
-    PlayersAndDefense = PlayersAndDefense[['PLAYER', 'POSITION', 'PROJ PTS', 'ADP', 'ADP RANK', '2QB RANK', 'VABP']]
-    PlayersAndDefense = PlayersAndDefense.sort_values(by=['VABP'], ascending=False)
+    PlayersAndDefense = PlayersAndDefense[['PLAYER', 'POSITION', 'PROJ PTS', 'ADP', 'ADP RANK', '2QB RANK', 'VOBP']]
+    PlayersAndDefense = PlayersAndDefense.sort_values(by=['VOBP'], ascending=False)
     PlayersAndDefense = PlayersAndDefense.reset_index(drop=True)
     print(PlayersAndDefense)
     report.close()
