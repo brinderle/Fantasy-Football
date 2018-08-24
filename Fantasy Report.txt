@@ -3,19 +3,19 @@ AVERAGE AND MAX PROJECTED POINTS FOR ALL PLAYERS IN EACH ROUND
 Average projected points per player in Round 1: 298.4583333333333
 Average projected points per player in Round 2: 268.96666666666664
 Average projected points per player in Round 3: 253.1833333333333
-Average projected points per player in Round 4: 241.44166666666663
-Average projected points per player in Round 5: 216.65
-Average projected points per player in Round 6: 206.60833333333335
-Average projected points per player in Round 7: 203.70833333333334
-Average projected points per player in Round 8: 180.02499999999998
-Average projected points per player in Round 9: 177.42499999999998
-Average projected points per player in Round 10: 161.1
-Average projected points per player in Round 11: 125.2666666666667
-Average projected points per player in Round 12: 134.275
-Average projected points per player in Round 13: 112.81666666666668
-Average projected points per player in Round 14: 120.95833333333331
-Average projected points per player in Round 15: 103.83333333333333
-Average projected points per player in Round 16: 98.20833333333333
+Average projected points per player in Round 4: 240.14166666666665
+Average projected points per player in Round 5: 217.95000000000002
+Average projected points per player in Round 6: 216.10833333333332
+Average projected points per player in Round 7: 186.75
+Average projected points per player in Round 8: 178.91666666666666
+Average projected points per player in Round 9: 183.78333333333333
+Average projected points per player in Round 10: 165.89166666666668
+Average projected points per player in Round 11: 123.98333333333333
+Average projected points per player in Round 12: 129.01666666666668
+Average projected points per player in Round 13: 116.77500000000002
+Average projected points per player in Round 14: 134.95833333333334
+Average projected points per player in Round 15: 86.18333333333334
+Average projected points per player in Round 16: 111.74166666666666
 
 Max points of player projected to be drafted in Round 1: 352.3
 Max points of player projected to be drafted in Round 2: 317.9
@@ -24,14 +24,14 @@ Max points of player projected to be drafted in Round 4: 287.4
 Max points of player projected to be drafted in Round 5: 275.9
 Max points of player projected to be drafted in Round 6: 288.2
 Max points of player projected to be drafted in Round 7: 264.2
-Max points of player projected to be drafted in Round 8: 248.2
+Max points of player projected to be drafted in Round 8: 242.0
 Max points of player projected to be drafted in Round 9: 253.2
 Max points of player projected to be drafted in Round 10: 254.7
-Max points of player projected to be drafted in Round 11: 169.3
+Max points of player projected to be drafted in Round 11: 254.3
 Max points of player projected to be drafted in Round 12: 201.5
 Max points of player projected to be drafted in Round 13: 193.4
 Max points of player projected to be drafted in Round 14: 178.9
-Max points of player projected to be drafted in Round 15: 168.0
+Max points of player projected to be drafted in Round 15: 146.5
 Max points of player projected to be drafted in Round 16: 157.4
 
 ----------------------------------------------------------------
@@ -41,16 +41,16 @@ AVERAGE AND MAX PROJECTED POINTS FOR RB IN EACH ROUND
 Average projected points per RB in Round 1: 295.7444444444444
 Average projected points per RB in Round 2: 239.12499999999997
 Average projected points per RB in Round 3: 230.29999999999998
-Average projected points per RB in Round 4: 193.35000000000002
-Average projected points per RB in Round 5: 177.29999999999998
-Average projected points per RB in Round 6: 162.7
-Average projected points per RB in Round 7: 157.75
-Average projected points per RB in Round 8: 158.54999999999998
-Average projected points per RB in Round 9: 156.85
-Average projected points per RB in Round 10: 127.83333333333333
-Average projected points per RB in Round 11: 136.4
-Average projected points per RB in Round 12: 134.2
-Average projected points per RB in Round 13: 107.97999999999999
+Average projected points per RB in Round 4: 185.55
+Average projected points per RB in Round 5: 182.5
+Average projected points per RB in Round 6: 170.53333333333333
+Average projected points per RB in Round 7: 151.79999999999998
+Average projected points per RB in Round 8: 156.775
+Average projected points per RB in Round 9: 160.525
+Average projected points per RB in Round 10: 130.0666666666667
+Average projected points per RB in Round 11: 121.2
+Average projected points per RB in Round 12: 128.35
+Average projected points per RB in Round 13: 104.35
 Average projected points per RB in Round 14: 116.475
 Average projected points per RB in Round 15: 90.0
 Average projected points per RB in Round 16: 157.4
@@ -58,14 +58,14 @@ Average projected points per RB in Round 16: 157.4
 Max points of RB projected to be drafted in Round 1: 352.3
 Max points of RB projected to be drafted in Round 2: 265.2
 Max points of RB projected to be drafted in Round 3: 254.0
-Max points of RB projected to be drafted in Round 4: 201.3
-Max points of RB projected to be drafted in Round 5: 185.7
+Max points of RB projected to be drafted in Round 4: 185.7
+Max points of RB projected to be drafted in Round 5: 201.3
 Max points of RB projected to be drafted in Round 6: 203.2
 Max points of RB projected to be drafted in Round 7: 172.4
 Max points of RB projected to be drafted in Round 8: 176.9
 Max points of RB projected to be drafted in Round 9: 163.6
-Max points of RB projected to be drafted in Round 10: 160.1
-Max points of RB projected to be drafted in Round 11: 166.8
+Max points of RB projected to be drafted in Round 10: 166.8
+Max points of RB projected to be drafted in Round 11: 137.5
 Max points of RB projected to be drafted in Round 12: 134.2
 Max points of RB projected to be drafted in Round 13: 134.0
 Max points of RB projected to be drafted in Round 14: 138.1
@@ -80,18 +80,18 @@ Average projected points per WR in Round 1: 301.79999999999995
 Average projected points per WR in Round 2: 276.17999999999995
 Average projected points per WR in Round 3: 242.65
 Average projected points per WR in Round 4: 229.075
-Average projected points per WR in Round 5: 209.76000000000005
+Average projected points per WR in Round 5: 209.76
 Average projected points per WR in Round 6: 221.33333333333334
 Average projected points per WR in Round 7: 190.33999999999997
 Average projected points per WR in Round 8: 187.175
-Average projected points per WR in Round 9: 188.275
-Average projected points per WR in Round 10: 186.45999999999998
-Average projected points per WR in Round 11: 144.625
-Average projected points per WR in Round 12: 167.08
-Average projected points per WR in Round 13: 143.5
-Average projected points per WR in Round 14: 158.33333333333334
-Average projected points per WR in Round 15: 126.09999999999998
-Average projected points per WR in Round 16: 146.5
+Average projected points per WR in Round 9: 188.83333333333334
+Average projected points per WR in Round 10: 176.77142857142857
+Average projected points per WR in Round 11: 158.53333333333333
+Average projected points per WR in Round 12: 162.45
+Average projected points per WR in Round 13: 156.75
+Average projected points per WR in Round 14: 160.75
+Average projected points per WR in Round 15: 129.1
+Average projected points per WR in Round 16: 108.65
 
 Max points of WR projected to be drafted in Round 1: 322.4
 Max points of WR projected to be drafted in Round 2: 291.9
@@ -103,12 +103,12 @@ Max points of WR projected to be drafted in Round 7: 205.3
 Max points of WR projected to be drafted in Round 8: 195.3
 Max points of WR projected to be drafted in Round 9: 190.7
 Max points of WR projected to be drafted in Round 10: 190.5
-Max points of WR projected to be drafted in Round 11: 169.3
+Max points of WR projected to be drafted in Round 11: 184.9
 Max points of WR projected to be drafted in Round 12: 188.2
-Max points of WR projected to be drafted in Round 13: 143.5
+Max points of WR projected to be drafted in Round 13: 170.0
 Max points of WR projected to be drafted in Round 14: 178.9
-Max points of WR projected to be drafted in Round 15: 168.0
-Max points of WR projected to be drafted in Round 16: 146.5
+Max points of WR projected to be drafted in Round 15: 146.5
+Max points of WR projected to be drafted in Round 16: 118.7
 
 ----------------------------------------------------------------
 
@@ -119,12 +119,12 @@ Average projected points per QB in Round 2: 296.73333333333335
 Average projected points per QB in Round 3: 285.025
 Average projected points per QB in Round 4: 275.36
 Average projected points per QB in Round 5: 268.59999999999997
-Average projected points per QB in Round 6: 270.43333333333334
-Average projected points per QB in Round 7: 248.35
-Average projected points per QB in Round 8: 248.2
-Average projected points per QB in Round 9: 247.7
-Average projected points per QB in Round 10: 254.5
-Average projected points per QB in Round 11: 0
+Average projected points per QB in Round 6: 266.125
+Average projected points per QB in Round 7: 249.1
+Average projected points per QB in Round 8: 242.0
+Average projected points per QB in Round 9: 247.86666666666665
+Average projected points per QB in Round 10: 254.7
+Average projected points per QB in Round 11: 254.3
 Average projected points per QB in Round 12: 153.95
 Average projected points per QB in Round 13: 193.4
 Average projected points per QB in Round 14: 141.3
@@ -138,10 +138,10 @@ Max points of QB projected to be drafted in Round 4: 287.4
 Max points of QB projected to be drafted in Round 5: 275.9
 Max points of QB projected to be drafted in Round 6: 288.2
 Max points of QB projected to be drafted in Round 7: 264.2
-Max points of QB projected to be drafted in Round 8: 248.2
+Max points of QB projected to be drafted in Round 8: 242.0
 Max points of QB projected to be drafted in Round 9: 253.2
 Max points of QB projected to be drafted in Round 10: 254.7
-Max points of QB projected to be drafted in Round 11: 0
+Max points of QB projected to be drafted in Round 11: 254.3
 Max points of QB projected to be drafted in Round 12: 201.5
 Max points of QB projected to be drafted in Round 13: 193.4
 Max points of QB projected to be drafted in Round 14: 141.3
@@ -167,7 +167,7 @@ Average projected points per TE in Round 12: 123.9
 Average projected points per TE in Round 13: 116.9
 Average projected points per TE in Round 14: 0
 Average projected points per TE in Round 15: 122.1
-Average projected points per TE in Round 16: 115.2
+Average projected points per TE in Round 16: 102.05
 
 Max points of TE projected to be drafted in Round 1: 0
 Max points of TE projected to be drafted in Round 2: 0
@@ -184,7 +184,7 @@ Max points of TE projected to be drafted in Round 12: 123.9
 Max points of TE projected to be drafted in Round 13: 116.9
 Max points of TE projected to be drafted in Round 14: 0
 Max points of TE projected to be drafted in Round 15: 122.1
-Max points of TE projected to be drafted in Round 16: 115.2
+Max points of TE projected to be drafted in Round 16: 105.0
 
 ----------------------------------------------------------------
 
@@ -204,8 +204,8 @@ Average projected points per D/ST in Round 11: 110.44999999999999
 Average projected points per D/ST in Round 12: 104.95
 Average projected points per D/ST in Round 13: 106.2
 Average projected points per D/ST in Round 14: 85.3
-Average projected points per D/ST in Round 15: 98.7
-Average projected points per D/ST in Round 16: 89.0
+Average projected points per D/ST in Round 15: 102.19999999999999
+Average projected points per D/ST in Round 16: 91.7
 
 Max points of D/ST projected to be drafted in Round 1: 0
 Max points of D/ST projected to be drafted in Round 2: 0
@@ -222,7 +222,7 @@ Max points of D/ST projected to be drafted in Round 12: 106.7
 Max points of D/ST projected to be drafted in Round 13: 109.0
 Max points of D/ST projected to be drafted in Round 14: 85.3
 Max points of D/ST projected to be drafted in Round 15: 107.6
-Max points of D/ST projected to be drafted in Round 16: 89.0
+Max points of D/ST projected to be drafted in Round 16: 91.7
 
 ----------------------------------------------------------------
 
