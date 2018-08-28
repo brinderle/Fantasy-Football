@@ -6,8 +6,8 @@ NUMBER_OF_TEAMS = 12
 NUMBER_OF_ROUNDS = 16
 # NUMBER_BIGGEST_GAPS is used for findBiggestPositionalGaps(), tells function to find the n largest gaps between
 # consecutively projected players of same position
-NUMBER_BIGGEST_GAPS = 5
-N_PLAYERS_MOST_STATS = 5 # display top n players for stats
+NUMBER_BIGGEST_GAPS = 10
+N_PLAYERS_MOST_STATS = 10 # display top n players for stats
 
 
 def main():

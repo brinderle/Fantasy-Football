@@ -226,40 +226,65 @@ Max points of D/ST projected to be drafted in Round 16: 91.8
 
 ----------------------------------------------------------------
 
-THE 5 BIGGEST GAPS IN PROJECTED POINTS BETWEEN CONSECUTIVELY PROJECTED RUNNING BACKS
+THE 10 BIGGEST GAPS IN PROJECTED POINTS BETWEEN CONSECUTIVELY PROJECTED RUNNING BACKS
 	22.6 points between David Johnson and Ezekiel Elliott
 	22.5 points between Jerick McKinnon and Joe Mixon
 	22.4 points between Le'Veon Bell and Todd Gurley II
 	19.5 points between LeSean McCoy and Devonta Freeman
 	16.4 points between Saquon Barkley and Dalvin Cook
+	15.6 points between Kenyan Drake and Alex Collins
+	12.0 points between Ezekiel Elliott and Alvin Kamara
+	9.6 points between Giovani Bernard and Sony Michel
+	9.2 points between Alvin Kamara and Saquon Barkley
+	8.6 points between Derrick Henry and Marshawn Lynch
 
-THE 5 BIGGEST GAPS IN PROJECTED POINTS BETWEEN CONSECUTIVELY PROJECTED WIDE RECEIVERS
+THE 10 BIGGEST GAPS IN PROJECTED POINTS BETWEEN CONSECUTIVELY PROJECTED WIDE RECEIVERS
 	30.3 points between Antonio Brown and Julio Jones
 	14.0 points between A.J. Green and Davante Adams
 	11.2 points between Davante Adams and T.Y. Hilton
 	10.7 points between Odell Beckham Jr. and A.J. Green
 	10.7 points between Julio Jones and DeAndre Hopkins
+	7.4 points between Golden Tate and Jarvis Landry
+	6.9 points between Nelson Agholor and Allen Hurns
+	6.2 points between Kenny Golladay and Keelan Cole
+	6.0 points between Jordy Nelson and Kenny Stills
+	5.6 points between Keelan Cole and Paul Richardson
 
-THE 5 BIGGEST GAPS IN PROJECTED POINTS BETWEEN CONSECUTIVELY PROJECTED QUARTERBACKS
+THE 10 BIGGEST GAPS IN PROJECTED POINTS BETWEEN CONSECUTIVELY PROJECTED QUARTERBACKS
 	52.2 points between Sam Darnold and Josh Allen
 	32.5 points between Jameis Winston and Joe Flacco
 	22.6 points between Josh Rosen and Sam Bradford
 	13.3 points between Aaron Rodgers and Cam Newton
 	12.3 points between Josh Allen and Josh Rosen
+	8.9 points between Cam Newton and Russell Wilson
+	8.2 points between Tyrod Taylor and Jameis Winston
+	7.8 points between Joe Flacco and Sam Darnold
+	5.7 points between Russell Wilson and Alex Smith
+	5.6 points between Case Keenum and Eli Manning
 
-THE 5 BIGGEST GAPS IN PROJECTED POINTS BETWEEN CONSECUTIVELY PROJECTED TIGHT ENDS
+THE 10 BIGGEST GAPS IN PROJECTED POINTS BETWEEN CONSECUTIVELY PROJECTED TIGHT ENDS
 	33.9 points between Rob Gronkowski and Travis Kelce
 	28.5 points between Kyle Rudolph and Charles Clay
 	27.8 points between Zach Ertz and Greg Olsen
 	13.4 points between Jordan Reed and Jimmy Graham
 	11.8 points between O.J. Howard and Ryan Griffin
+	11.6 points between Hayden Hurst and Virgil Green
+	8.3 points between Mike Gesicki and O.J. Howard
+	4.7 points between Charles Clay and Trey Burton
+	4.2 points between Travis Kelce and Zach Ertz
+	4.0 points between David Njoku and George Kittle
 
-THE 5 BIGGEST GAPS IN PROJECTED POINTS BETWEEN CONSECUTIVELY PROJECTED KICKERS
+THE 10 BIGGEST GAPS IN PROJECTED POINTS BETWEEN CONSECUTIVELY PROJECTED KICKERS
 	5.5 points between Stephen Gostkowski and Matt Bryant
 	3.7 points between Jason Sanders and Jason Myers
 	3.5 points between Phil Dawson and Jason Sanders
 	3.4 points between Wil Lutz and Daniel Carlson
 	2.8 points between Ryan Succop and Mason Crosby
+	2.5 points between Justin Tucker and Robbie Gould
+	1.8 points between Jake Elliott and Graham Gano
+	1.8 points between Eddy Pineiro and Sebastian Janikowski
+	1.8 points between Greg Zuerlein and Stephen Gostkowski
+	1.5 points between Matt Prater and Justin Tucker
 
 ----------------------------------------------------------------
 
@@ -269,6 +294,11 @@ MOST PROJECTED YARDS FOR QUARTERBACKS
 	4575.3 yards for Ben Roethlisberger
 	4497.0 yards for Alex Smith
 	4487.9 yards for Matthew Stafford
+	4462.3 yards for Patrick Mahomes
+	4460.1 yards for Kirk Cousins
+	4460.0 yards for Jimmy Garoppolo
+	4420.7 yards for Drew Brees
+	4407.8 yards for Matt Ryan
 
 MOST PROJECTED YARDS FOR RUNNING BACKS
 	1957.1 yards for Le'Veon Bell
@@ -276,6 +306,11 @@ MOST PROJECTED YARDS FOR RUNNING BACKS
 	1815.8 yards for David Johnson
 	1797.4 yards for Ezekiel Elliott
 	1629.8 yards for Saquon Barkley
+	1608.2 yards for Dalvin Cook
+	1544.0 yards for Alvin Kamara
+	1534.3 yards for LeSean McCoy
+	1527.3 yards for Leonard Fournette
+	1521.5 yards for Melvin Gordon
 
 MOST PROJECTED YARDS FOR WIDE RECEIVERS
 	1582.4 yards for Antonio Brown
@@ -283,6 +318,11 @@ MOST PROJECTED YARDS FOR WIDE RECEIVERS
 	1320.6 yards for DeAndre Hopkins
 	1316.4 yards for Keenan Allen
 	1315.2 yards for Odell Beckham Jr.
+	1296.8 yards for A.J. Green
+	1268.3 yards for Michael Thomas
+	1249.0 yards for T.Y. Hilton
+	1157.5 yards for Tyreek Hill
+	1155.6 yards for Adam Thielen
 
 MOST PROJECTED YARDS FOR TIGHT ENDS
 	1187.7 yards for Rob Gronkowski
@@ -290,6 +330,11 @@ MOST PROJECTED YARDS FOR TIGHT ENDS
 	886.8 yards for Zach Ertz
 	869.1 yards for Greg Olsen
 	778.8 yards for Delanie Walker
+	766.1 yards for Evan Engram
+	747.2 yards for Jordan Reed
+	654.6 yards for Jimmy Graham
+	628.4 yards for Jack Doyle
+	611.9 yards for Kyle Rudolph
 
 MOST PROJECTED TOUCHDOWNS FOR QUARTERBACKS
 	35.3 touchdowns for Aaron Rodgers
@@ -297,6 +342,11 @@ MOST PROJECTED TOUCHDOWNS FOR QUARTERBACKS
 	30.4 touchdowns for Carson Wentz
 	29.8 touchdowns for Philip Rivers
 	29.5 touchdowns for Kirk Cousins
+	29.5 touchdowns for Ben Roethlisberger
+	29.4 touchdowns for Andrew Luck
+	29.4 touchdowns for Drew Brees
+	28.5 touchdowns for Matthew Stafford
+	28.5 touchdowns for Deshaun Watson
 
 MOST PROJECTED TOUCHDOWNS FOR RUNNING BACKS
 	13.1 touchdowns for Todd Gurley II
@@ -304,6 +354,11 @@ MOST PROJECTED TOUCHDOWNS FOR RUNNING BACKS
 	12.8 touchdowns for Ezekiel Elliott
 	11.3 touchdowns for David Johnson
 	11.1 touchdowns for Leonard Fournette
+	10.5 touchdowns for Devonta Freeman
+	10.5 touchdowns for Alvin Kamara
+	10.0 touchdowns for Saquon Barkley
+	9.9 touchdowns for Kareem Hunt
+	8.7 touchdowns for Dalvin Cook
 
 MOST PROJECTED TOUCHDOWNS FOR WIDE RECEIVERS
 	9.7 touchdowns for Davante Adams
@@ -311,13 +366,23 @@ MOST PROJECTED TOUCHDOWNS FOR WIDE RECEIVERS
 	8.6 touchdowns for Michael Thomas
 	8.6 touchdowns for Antonio Brown
 	8.4 touchdowns for Mike Evans
+	8.0 touchdowns for A.J. Green
+	7.9 touchdowns for Julio Jones
+	7.9 touchdowns for Odell Beckham Jr.
+	7.7 touchdowns for Keenan Allen
+	7.5 touchdowns for Marvin Jones Jr.
 
 MOST PROJECTED TOUCHDOWNS FOR TIGHT ENDS
 	9.4 touchdowns for Rob Gronkowski
 	7.7 touchdowns for Jimmy Graham
-	7.1 touchdowns for Zach Ertz
 	7.1 touchdowns for Kyle Rudolph
+	7.1 touchdowns for Zach Ertz
 	6.4 touchdowns for Delanie Walker
+	6.2 touchdowns for Evan Engram
+	5.8 touchdowns for Jack Doyle
+	5.8 touchdowns for Travis Kelce
+	5.6 touchdowns for Jordan Reed
+	5.5 touchdowns for Greg Olsen
 
 MOST PROJECTED RECEPTIONS FOR RUNNING BACKS
 	79.4 receptions for Le'Veon Bell
@@ -325,6 +390,11 @@ MOST PROJECTED RECEPTIONS FOR RUNNING BACKS
 	74.0 receptions for Alvin Kamara
 	71.3 receptions for Christian McCaffrey
 	67.2 receptions for Todd Gurley II
+	60.0 receptions for Melvin Gordon
+	59.9 receptions for Saquon Barkley
+	59.3 receptions for Duke Johnson Jr.
+	56.3 receptions for LeSean McCoy
+	55.2 receptions for Kareem Hunt
 
 MOST PROJECTED RECEPTIONS FOR WIDE RECEIVERS
 	110.5 receptions for Antonio Brown
@@ -332,6 +402,11 @@ MOST PROJECTED RECEPTIONS FOR WIDE RECEIVERS
 	101.2 receptions for Keenan Allen
 	100.1 receptions for Michael Thomas
 	98.8 receptions for Odell Beckham Jr.
+	94.5 receptions for Julio Jones
+	94.2 receptions for DeAndre Hopkins
+	89.6 receptions for A.J. Green
+	89.3 receptions for Jarvis Landry
+	89.1 receptions for Golden Tate
 
 MOST PROJECTED RECEPTIONS FOR TIGHT ENDS
 	81.7 receptions for Zach Ertz
@@ -339,4 +414,9 @@ MOST PROJECTED RECEPTIONS FOR TIGHT ENDS
 	76.1 receptions for Rob Gronkowski
 	73.3 receptions for Jordan Reed
 	70.3 receptions for Evan Engram
+	69.1 receptions for Jack Doyle
+	67.5 receptions for Delanie Walker
+	65.8 receptions for Greg Olsen
+	60.4 receptions for Kyle Rudolph
+	57.5 receptions for Charles Clay
 
